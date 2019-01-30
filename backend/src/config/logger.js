@@ -33,6 +33,12 @@ const logger = winston.createLogger({
             maxFiles: 5,
             colorize: false
         }),
+        new winston.transports.Console({
+            level: 'debug',
+            handleExceptions: true,
+            json: false,
+            colorize: true
+        })
     ],
 });
 

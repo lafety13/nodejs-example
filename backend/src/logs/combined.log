@@ -17,3 +17,206 @@
 {"message":"server started on port 8080 (undefined)","level":"info","timestamp":"2019-01-30 11:40:23"}
 {"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 11:41:23"}
 {"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 11:44:50"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:40:40"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:42:42"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:43:20"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:43:45"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:44:21"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:44:29"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:44:33"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:45:37"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:46:36"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:46:52"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:46:56"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:47:17"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:53:58"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:54:06"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:54:11"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:55:13"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:56:00"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:57:23"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:58:10"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 15:58:14"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:00:07"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:01:51"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:02:35"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:03:32"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:03:55"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:05:23"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:08:11"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:08:41"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 16:08:45"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:10:49"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 16:10:54"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:11:32"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 16:11:34"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:13:26"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 16:13:30"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:13:55"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:16:19"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 16:16:21"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:16:48"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 16:16:51"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:46:07"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 16:46:11"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:47:06"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 16:47:09"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:47:27"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:49:45"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:51:26"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:52:29"}
+{"message":"Cast to ObjectId failed for value \"{ _id: '1' }\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"{ _id: '1' }\"","kind":"ObjectId","value":{"_id":"1"},"path":"_id","level":"error","timestamp":"2019-01-30 16:52:31"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:53:25"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:53:59"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:54:20"}
+{"message":"Cast to ObjectId failed for value \"{ _id:\n   ObjectId {\n     path: '1',\n     instance: 'ObjectID',\n     validators: [],\n     getters: [],\n     setters: [],\n     options: undefined,\n     _index: null } }\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"{ _id:\n   ObjectId {\n     path: '1',\n     instance: 'ObjectID',\n     validators: [],\n     getters: [],\n     setters: [],\n     options: undefined,\n     _index: null } }\"","kind":"ObjectId","value":{"_id":{"path":"1","instance":"ObjectID","validators":[],"getters":[],"setters":[],"_index":null}},"path":"_id","level":"error","timestamp":"2019-01-30 16:54:23"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:54:41"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:56:31"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:56:44"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 16:57:19"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 16:57:22"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:01:14"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 17:01:17"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:01:32"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:01:52"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 17:01:55"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:02:18"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 17:02:20"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:32:20"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 17:32:27"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:33:31"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:34:16"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:34:56"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:38:11"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:39:33"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:43:05"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 17:43:09"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:50:08"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:50:29"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:52:43"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 17:52:46"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:53:06"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 17:53:08"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:53:43"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 17:53:45"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 17:54:18"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:01:45"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:05:07"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:05:24"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:06:09"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:07:35"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:22:38"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:23:27"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:23:30"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:24:48"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:25:19"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:25:24"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:25:48"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:25:58"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:26:03"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:26:06"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:26:26"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:26:28"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:31:10"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:31:33"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:33:38"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:34:00"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:35:13"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:35:48"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:35:59"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:36:15"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:36:23"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:36:39"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:37:11"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:37:15"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:37:35"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:37:37"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:37:48"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:38:16"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:38:17"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:40:08"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:40:10"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:40:15"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:40:17"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:41:55"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:42:26"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:43:06"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:43:22"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:52:09"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:52:51"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:52:59"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:53:53"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:53:56"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:54:58"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:54:59"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:55:02"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:55:11"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:55:13"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:55:41"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:55:43"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:56:45"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:56:47"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:57:00"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:57:02"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:57:39"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:57:41"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 18:59:27"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 18:59:31"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:00:17"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:00:19"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:02:00"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:02:03"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:05:15"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:05:18"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:05:37"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:05:40"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:05:49"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:05:57"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:07:46"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:07:50"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:27:18"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:27:56"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:28:10"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:29:03"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:29:29"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:40:11"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:40:26"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:40:34"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:40:56"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:41:02"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:41:44"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:41:50"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:42:09"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:42:18"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:42:49"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:42:53"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:43:20"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:43:25"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:43:43"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:43:52"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:44:43"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:44:50"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:45:33"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:45:36"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:46:03"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:46:05"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:46:12"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:46:59"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:47:10"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:49:05"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:49:12"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:49:32"}
+{"level":"error","timestamp":"2019-01-30 19:49:36"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 19:49:54"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"User\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2019-01-30 19:49:56"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 21:22:44"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 21:23:19"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 21:25:19"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 21:33:30"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 21:33:55"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 21:35:41"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 21:36:08"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 21:36:13"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 21:36:22"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 21:36:31"}
+{"message":"server started on port 8080 (development)","level":"info","timestamp":"2019-01-30 21:40:38"}
