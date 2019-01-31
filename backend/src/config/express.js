@@ -9,7 +9,7 @@ const expressValidator = require('express-validator');
 
 const routes = require('../api/routes/v1');
 const { logs } = require('./vars');
-const errorHandler = require('../api/middlewares/errorHandler');
+const errorHandlers = require('../api/middlewares/errorHandler.middleware');
 
 const app = express();
 
@@ -26,6 +26,8 @@ app.use(expressValidator());
 
 app.use('/v1', routes);
 
-app.use(errorHandler);
+app.use(errorHandlers.errorConverter);
+app.use(errorHandlers.error404Handler);
+app.use(errorHandlers.errorHandler);
 
 module.exports = app;

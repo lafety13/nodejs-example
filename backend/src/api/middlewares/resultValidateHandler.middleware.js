@@ -7,15 +7,10 @@ module.exports = (validationRules = []) => {
 
     const fnResultHandler = (request, response, next) => {
         const validationErrors = validationResult(request);
-
-        try {
-            if (!validationErrors.isEmpty()) {
-                validationErrors.throw();
-            }
-            next();
-        } catch (e) {
-            throw e;
+        if (!validationErrors.isEmpty()) {
+            validationErrors.throw();
         }
+        next();
     };
 
     return [...validationRules, fnResultHandler];

@@ -1,4 +1,4 @@
-const UserModel = require('../models/user');
+const UserModel = require('../models/user.model');
 const logger = require('../../config/logger');
 
 exports.findUserById = async (id) => {
