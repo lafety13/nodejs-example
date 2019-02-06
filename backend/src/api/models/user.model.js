@@ -79,7 +79,7 @@ UserSchema.pre('save', async function (next) {
 
 UserSchema.post('save', function(error, doc, next) {
     if (error.name === 'MongoError' && error.code === 11000) {
-        // TODO: handle validation error
+        // TODO: need to create a handler of validation error
         next(error);
     } else {
         next();

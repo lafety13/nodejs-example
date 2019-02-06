@@ -8,10 +8,13 @@ const { tokenSecretKey, tokenExpirationInterval } = require('../../config/vars')
 const { RefreshTokenModel } = require('../models/refreshToken.model');
 const { UserModel } = require('../models/user.model');
 
-const _generateToken = user => jsonwebtoken.sign({
-    userId: user.id,
-    expires: moment().add(tokenExpirationInterval, 'minutes')
-}, tokenSecretKey);
+const _generateToken = (user) => {
+    const options = {
+        expiresIn: moment().add(tokenExpirationInterval, 'minutes').unix()
+    };
+
+    return jsonwebtoken.sign({ userId: user.id }, tokenSecretKey, options);
+};
 
 const _buildRefreshTokenData = async (user) => {
     try {
@@ -21,7 +24,7 @@ const _buildRefreshTokenData = async (user) => {
         ]);
 
         const tokenData = {
-            expires: moment().add(30, 'days').toDate(),
+            expires: moment().add(30, 'days').unix(),
             token: newRefreshToken
         };
 
@@ -62,16 +65,14 @@ const _handleTokenProcess = async (user) => {
 
 exports.login = async (credentials) => {
     try {
-        const user = await UserModel.findOne({ email: credentials.email }).then((foundUser) => {
-            if (!foundUser || !foundUser.checkPassword(credentials.password)) {
-                throw new AuthError({
-                    message: 'Password or/and email is invalid.',
-                    status: httpStatus.UNPROCESSABLE_ENTITY
-                });
-            }
+        const user = await UserModel.findOne({ email: credentials.email });
 
-            return foundUser;
-        });
+        if (!user || !user.checkPassword(credentials.password)) {
+            throw new AuthError({
+                message: 'Password or/and email is invalid.',
+                status: httpStatus.UNPROCESSABLE_ENTITY
+            });
+        }
 
         return await _handleTokenProcess(user);
     } catch (error) {
@@ -103,7 +104,7 @@ exports.refresh = async (refreshToken, userId) => {
             RefreshTokenModel.findOne({ userId })
         ]);
 
-        if (!refreshModel || refreshModel.token !== refreshToken) {
+        if (!refreshModel && refreshModel.token !== refreshToken) {
             throw new AuthError({
                 message: 'Invalid token',
                 status: httpStatus.UNAUTHORIZED
