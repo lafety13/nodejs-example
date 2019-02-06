@@ -10,7 +10,7 @@
       "NODE_ENV": "production"
     },
     "log_date_format":  "MM-DD-YYYY HH:mm Z",
-    "error_file":  "myapp_err.log",
-    "out_file":  "myapp_out.log"
+    "error_file":  "server_err.log",
+    "out_file":  "server_out.log"
   }]
 }

@@ -24,3 +24,5 @@ yarn-error.log*
 
 # logs
 /backend/src/logs
+/backend/server_err.log
+/backend/server_out.log
