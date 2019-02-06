@@ -14,6 +14,8 @@ exports.login = async (request, response, next) => {
 
 exports.logout = async (request, response, next) => {
     try {
+        const { userId } = request.params;
+        await authService.logout(userId);
         response.sendStatus(httpStatus.OK);
     } catch (error) {
         next(error);

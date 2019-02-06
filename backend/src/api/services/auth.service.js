@@ -48,7 +48,7 @@ const _buildRefreshTokenData = async (user) => {
     }
 };
 
-const _buildResponseWithToken = async (user) => {
+const _handleTokenProcess = async (user) => {
     try {
         const tokenType = 'Bearer';
         const accessToken = await _generateToken(user);
@@ -73,14 +73,18 @@ exports.login = async (credentials) => {
             return foundUser;
         });
 
-        return await _buildResponseWithToken(user);
+        return await _handleTokenProcess(user);
     } catch (error) {
         throw error;
     }
 };
 
-exports.logout = (userBody) => {
-
+exports.logout = async (userId) => {
+    try {
+        return await RefreshTokenModel.findOneAndDelete({ userId });
+    } catch (error) {
+        throw error;
+    }
 };
 
 exports.register = async (userBody) => {
@@ -113,7 +117,7 @@ exports.refresh = async (refreshToken, userId) => {
             });
         }
 
-        return _buildResponseWithToken(user);
+        return _handleTokenProcess(user);
     } catch (error) {
         throw error;
     }

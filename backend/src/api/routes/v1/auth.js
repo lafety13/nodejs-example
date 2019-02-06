@@ -7,5 +7,6 @@ const { loginValidation } = require('../../middlewares/validations/authValidatio
 router.post('/register', validationRegisterUser(), authController.register);
 router.post('/login', loginValidation(), authController.login);
 router.post('/refresh', authController.refreshToken);
+router.get('/logout', authController.logout);
 
 module.exports = router;
