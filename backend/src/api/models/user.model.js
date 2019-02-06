@@ -1,44 +1,92 @@
 const mongoose = require('mongoose');
-const crypto = require('crypto');
+const bcrypt = require('bcrypt');
+const { env } = require('../../config/vars');
+
+const roles = ['user', 'admin'];
 
 const UserSchema = new mongoose.Schema({
-    name:  {
+    name: {
         type: String,
         required: true
     },
-    lastName: String,
+    lastName: {
+        type: String,
+        trim: true,
+        required: true
+    },
     nickname: {
         type: String,
-        required: true
-    },
-    createdDate: {
-        type: Date,
-        default: Date.now
+        required: true,
+        unique : true
     },
     email: {
+        type : String,
+        unique : [true, 'hello'],
+        required : true,
+        dropDups: true,
+        match: /^\S+@\S+\.\S+$/,
+        trim: true
+    },
+    picture: {
         type: String,
-        required: true
+        trim: true,
     },
     password: {
         type: String,
-        required: true
+        required: true,
+        minlength: 6,
+        maxlength: 128
     },
-    salt: {
+    role: {
         type: String,
-        required: true
+        enum: roles,
+        default: 'user'
+    },
+}, {
+    timestamps: true
+});
+
+UserSchema.methods.toJSON = function () {
+    const obj = this.toObject();
+    delete obj.password;
+    delete obj.__v;
+    return obj;
+};
+
+UserSchema.methods.checkPassword = function(password) {
+    return bcrypt.compare(this.password, password);
+};
+
+UserSchema.methods.findByName = async function(username) {
+    return await this.find({ name: username });
+};
+
+UserSchema.virtual('id')
+    .get(function() {
+        return this._id;
+    });
+
+UserSchema.pre('save', async function (next) {
+    try {
+        if (!this.isModified('password')) return next();
+        const rounds = env === 'test' ? 1 : 10;
+        this.password = await bcrypt.hash(this.password, rounds);
+        next();
+    } catch (error) {
+        next(error);
     }
 });
 
-UserSchema.methods.encryptPassword = (password, salt) => crypto.createHmac('sha1', salt).update(password).digest('hex');
-
-UserSchema.methods.checkPassword = password => this.encryptPassword(password, this.salt) === this.password;
-
-UserSchema.virtual('id').get(() => this._id);
-
-UserSchema.pre('save', (next) => {
-    this.salt = crypto.randomBytes(32).toString('base64');
-    this.password = this.encryptPassword(this.password, this.salt);
-    next();
+UserSchema.post('save', function(error, doc, next) {
+    if (error.name === 'MongoError' && error.code === 11000) {
+        // TODO: handle validation error
+        next(error);
+    } else {
+        next();
+    }
 });
 
-module.exports = mongoose.model('User', UserSchema);
+const User = mongoose.model('User', UserSchema);
+
+module.exports.UserModel = User;
+module.exports.UserSchema = UserSchema;

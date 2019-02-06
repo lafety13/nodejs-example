@@ -32,18 +32,15 @@ const logger = winston.createLogger({
             maxsize: 5242880,
             maxFiles: 5,
             colorize: false
-        }),
-        new winston.transports.Console({
-            level: 'debug',
-            handleExceptions: true,
-            json: false,
-            colorize: true
         })
     ],
 });
 
 if (process.env.NODE_ENV !== 'production') {
     logger.add(new winston.transports.Console({
+        handleExceptions: true,
+        json: false,
+        colorize: true,
         format: winston.format.simple(),
     }));
 }

@@ -6,6 +6,8 @@ const methodOverride = require('method-override');
 const cors = require('cors');
 const helmet = require('helmet');
 const expressValidator = require('express-validator');
+const passport = require('passport');
+const passportConfig = require('../config/passport');
 
 const routes = require('../api/routes/v1');
 const { logs } = require('./vars');
@@ -24,7 +26,10 @@ app.use(helmet());
 app.use(cors());
 app.use(expressValidator());
 
-app.use('/v1', routes);
+app.use(passport.initialize());
+passport.use(passportConfig.bearerStrategy);
+
+app.use('/api/v1', routes);
 
 app.use(errorHandlers.errorConverter);
 app.use(errorHandlers.error404Handler);

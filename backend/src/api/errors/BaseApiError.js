@@ -1,4 +1,4 @@
-class ApiError extends Error {
+class BaseApiError extends Error {
     constructor({ message, errors, status, stack }) {
         super(message);
         this.name = this.constructor.name;
@@ -9,4 +9,4 @@ class ApiError extends Error {
     }
 }
 
-module.exports = ApiError;
+module.exports = BaseApiError;

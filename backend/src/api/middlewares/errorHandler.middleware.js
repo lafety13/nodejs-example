@@ -2,21 +2,22 @@ const { validationResult } = require('express-validator/check');
 const httpStatus = require('http-status');
 
 const { env } = require('../../config/vars');
-const ApiError = require('../errors/ApiError');
+const BaseApiError = require('../errors/BaseApiError');
+const logger = require('../../config/logger');
 
 exports.errorConverter = (err, req, res, next) => {
     let convertedError = err;
     const validationError = validationResult(req);
 
     if (!validationError.isEmpty()) {
-        convertedError = new ApiError({
+        convertedError = new BaseApiError({
             message: 'Validation error',
             errors: validationError.mapped(),
             status: err.status || httpStatus.UNPROCESSABLE_ENTITY,
             stack: err.stack
         });
-    } else if (!(err instanceof ApiError)) {
-        convertedError = new ApiError({
+    } else if (!(err instanceof BaseApiError)) {
+        convertedError = new BaseApiError({
             message: err.message,
             status: err.status,
             stack: err.stack,
@@ -31,6 +32,7 @@ exports.errorHandler = (err, req, res, next) => {
         return next();
     }
 
+    logger.error(err);
     const response = {
         code: err.status,
         message: err.message || httpStatus[err.status],
@@ -46,7 +48,7 @@ exports.errorHandler = (err, req, res, next) => {
 };
 
 exports.error404Handler = (req, res, next) => {
-    const built404Error = new ApiError({
+    const built404Error = new BaseApiError({
         message: 'Not found',
         status: httpStatus.NOT_FOUND,
     });

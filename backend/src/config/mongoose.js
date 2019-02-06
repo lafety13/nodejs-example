@@ -3,6 +3,10 @@ const mongoose = require('mongoose');
 const logger = require('./../config/logger');
 const { mongo, env } = require('./vars');
 
+mongoose.set('useNewUrlParser', true);
+mongoose.set('useFindAndModify', false);
+mongoose.set('useCreateIndex', true);
+
 mongoose.connection.on('error', (err) => {
     logger.error(`MongoDB connection error: ${err}`);
     process.exit(-1);
