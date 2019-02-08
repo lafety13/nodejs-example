@@ -1,5 +1,5 @@
-const { validationResult } = require('express-validator/check');
 const httpStatus = require('http-status');
+const expressValidation = require('express-validation');
 
 const { env } = require('../../config/vars');
 const BaseApiError = require('../errors/BaseApiError');
@@ -7,12 +7,11 @@ const logger = require('../../config/logger');
 
 exports.errorConverter = (err, req, res, next) => {
     let convertedError = err;
-    const validationError = validationResult(req);
 
-    if (!validationError.isEmpty()) {
+    if (err instanceof expressValidation.ValidationError) {
         convertedError = new BaseApiError({
             message: 'Validation error',
-            errors: validationError.mapped(),
+            errors: err.errors,
             status: err.status || httpStatus.UNPROCESSABLE_ENTITY,
             stack: err.stack
         });

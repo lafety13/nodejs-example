@@ -8,6 +8,18 @@ const { tokenSecretKey, tokenExpirationInterval } = require('../../config/vars')
 const { RefreshTokenModel } = require('../models/refreshToken.model');
 const { UserModel } = require('../models/user.model');
 
+const _handleTokenProcess = async (user) => {
+    try {
+        const tokenType = 'Bearer';
+        const accessToken = await _generateToken(user);
+        const { token } = await _buildRefreshTokenData(user);
+
+        return { tokenType, accessToken, refreshToken: token, user };
+    } catch (error) {
+        throw error;
+    }
+};
+
 const _generateToken = (user) => {
     const options = {
         expiresIn: moment().add(tokenExpirationInterval, 'minutes').unix()
@@ -46,18 +58,6 @@ const _buildRefreshTokenData = async (user) => {
         }
 
         return refreshTokenModel;
-    } catch (error) {
-        throw error;
-    }
-};
-
-const _handleTokenProcess = async (user) => {
-    try {
-        const tokenType = 'Bearer';
-        const accessToken = await _generateToken(user);
-        const { token } = await _buildRefreshTokenData(user);
-
-        return { tokenType, accessToken, refreshToken: token, user };
     } catch (error) {
         throw error;
     }
